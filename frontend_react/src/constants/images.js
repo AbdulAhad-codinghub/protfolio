@@ -22,11 +22,12 @@ import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
+import full from '../assets/full.png';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-
+import mylogo from '../assets/mylogo.png'
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
 import asus from '../assets/asus.png';
@@ -34,13 +35,17 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import hello from '../assets/hello.png';
+
 
 export default {
   email,
   mobile,
   api,
   cpp,
+  hello,
   css,
+  mylogo,
   figma,
   flutter,
   git,
@@ -52,6 +57,7 @@ export default {
   python,
   react,
   redux,
+  full,
   sass,
   typescript,
   vue,
