@@ -54,18 +54,23 @@ const Work = () => {
 
       <motion.div
         animate={animateCard}
-        transition={{ duration: 0.5, delayChildren: 0.5 }}
+        
+        transition={{ duration: 0.5, delayChildren: 0.5 ,type:'tween'}}
+
         className="app__work-portfolio"
       >
         {filterWork.map((work, index) => (
-          <div className="app__work-item app__flex" key={index}>
+          <div className="app__work-item app__flex" key={index}
+         >
             <div
+            
               className="app__work-img app__flex"
             >
               <img src={urlFor(work.imgUrl)} alt={work.name} />
 
               <motion.div
-                whileHover={{ opacity: [0, 1] }}
+                whileHover={{ opacity: [0, 1]}}
+              
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
